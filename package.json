@@ -18,7 +18,8 @@
     "radix-vue": "^1.9.3",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
-    "vue": "latest"
+    "vue": "latest",
+    "vue-sonner": "^1.1.4"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
