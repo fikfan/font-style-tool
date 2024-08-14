@@ -18,5 +18,6 @@ export default defineNuxtConfig({
       googleFontsApiKey: process.env.GOOGLE_FONTS_API_KEY
     }
   },
+
   devtools: { enabled: true }
 })
