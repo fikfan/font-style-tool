@@ -14,8 +14,6 @@
 </template>
 
 <script setup>
-import { Input } from '@/components/ui/input'
-
 const props = defineProps({
   color: {
     type: String,

@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import { toast } from 'vue-sonner'
+
 const props = defineProps({
   styles: { 
     type: Object,

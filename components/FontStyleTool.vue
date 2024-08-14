@@ -25,19 +25,6 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { Slider } from '@/components/ui/slider'
-import { Button } from '@/components/ui/button'
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
-import { Input } from '@/components/ui/input'
-
 
 //colorpicker component
 import ColorPicker from './ColorPicker.vue'
