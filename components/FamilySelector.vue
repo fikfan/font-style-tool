@@ -22,15 +22,7 @@
 <script setup>
 
 const popularFonts = [
-  'Roboto',
   'Arial',
-  'Poppins',
-  'Open Sans',
-  'Lato',
-  'Montserrat',
-  'Helvetica',
-  'Source Sans Pro',
-  'Nunito',
   'Courier New'
 ]
 

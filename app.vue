@@ -20,4 +20,12 @@ import {
 } from '@/components/ui/select'
 import { toast } from 'vue-sonner'
 
+useHead({
+  title: 'font style tool',
+  meta: [
+    { name: 'description', content: 'simple font styling tool' }
+  ],
+})
+
+
 </script>
