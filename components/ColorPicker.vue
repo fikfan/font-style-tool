@@ -1,6 +1,6 @@
 <template>
   <div class="mb-4">
-    <label class="block text-lg font-medium text-gray-700 dark:text-gray-300">color</label>
+    <label class="block text-lg font-medium text-black dark:text-white">color</label>
     <input
     type="color"
     :value="color"

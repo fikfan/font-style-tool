@@ -1,9 +1,5 @@
 <template>
-  
   <div class="p-4 max-w-screen-xl m-auto">
-    <h1 class="text-2xl font-bold mb-4">font style tool</h1>
-    
-
     <div class="mb-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
       <ColorPicker v-model:color="textColor"/>
       <FontSizeSelector

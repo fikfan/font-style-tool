@@ -1,6 +1,6 @@
 <template>
   <div class="mb-4">
-    <label class="block text-lg font-medium text-gray-700 dark:text-gray-300">size</label>
+    <label class="block text-lg font-medium text-black dark:text-white">size</label>
     <div class="flex items-center space-x-2">
       <Slider
         v-model="localFontSizeArray"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label class="block text-lg font-medium text-gray-700">transform</label>
+    <label class="block text-lg font-medium text-black dark:text-white">transform</label>
     <div class="flex space-x-2 mt-2">
       <Button @click="toggleTransform('none')" :variant="textTransform === 'none' ? 'default' : 'outline'">none</Button>
       <Button @click="toggleTransform('uppercase')" :variant="textTransform === 'uppercase' ? 'default' : 'outline'">UPPERCASE</Button>

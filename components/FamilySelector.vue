@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-4 w-full">
-      <label class="block text-lg font-medium text-gray-700 mb-2">family</label>
+      <label class="block text-lg font-medium text-black dark:text-white mb-2">family</label>
       <Select v-model="selectedFontLocal">
         <SelectTrigger>
           <SelectValue :placeholder="selectedFont || 'select a font'" />

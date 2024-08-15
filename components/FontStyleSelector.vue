@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label class="block text-lg font-medium text-gray-700">style</label>
+    <label class="block text-lg font-medium text-black dark:text-white">style</label>
     <div class="flex space-x-2 mt-2">
       <Button @click="toggleStyle('bold')" :variant="isBold ? 'default' : 'outline'">bold</Button>
       <Button @click="toggleStyle('italic')" :variant="isItalic ? 'default' : 'outline'">italic</Button>

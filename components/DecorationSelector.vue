@@ -1,6 +1,6 @@
 <template>
   <div>
-    <label class="block text-lg font-medium text-gray-700">decoration</label>
+    <label class="block text-lg font-medium text-black dark:text-white">decoration</label>
     <div class="flex space-x-2 mt-2">
       <Button @click="toggleDecoration('none')" :variant="textDecoration === 'none' ? 'default' : 'outline'">none</Button>
       <Button @click="toggleDecoration('underline')" :variant="textDecoration === 'underline' ? 'default' : 'outline'">underline</Button>

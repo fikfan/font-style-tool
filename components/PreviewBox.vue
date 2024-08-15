@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-
+import { toast } from 'vue-sonner'
 const props = defineProps({
   styles: { 
     type: Object,
@@ -59,7 +59,6 @@ const copyCss = async () => {
       action: {
         label: 'Send me a PR plz on the repo thanks!'
       },
-      variant: 'destructive'
     })
   }
 }
